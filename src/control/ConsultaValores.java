@@ -31,7 +31,7 @@ public class ConsultaValores {
         // optional default is GET
         con.setRequestMethod("GET");
 
-        //add request header
+        //add request header.
         con.setRequestProperty("User-Agent", USER_AGENT);
 
         int responseCode = con.getResponseCode();
